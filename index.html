@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartCrop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>SmartCrop</h1>
+
+    <p>Smart Image Cropping Tool</p>
+
+    <!-- Select Image -->
+    <input type="file" id="imageInput" accept="image/*">
+
+    <br><br>
+
+    <!-- Original Image -->
+    <img id="preview" width="300">
+
+    <br><br>
+
+    <!-- Crop Button -->
+    <button id="cropButton">Crop Image</button>
+
+    <br><br>
+
+    <!-- Download Button -->
+    <button id="downloadButton">Download Cropped Image</button>
+
+    <br><br>
+
+    <!-- Canvas -->
+    <canvas id="cropCanvas"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
